@@ -14,7 +14,7 @@ def post_experiment_with_system_metrics():
     delete_all_todos()
     results = []
     
-    for i in range(1, 10, 5): 
+    for i in range(1, 1000, 5): 
         todo = create_random_todo()
         
         #Get CPU %, time and free memory % metrics
@@ -44,7 +44,7 @@ def delete_experiment_with_system_metrics():
     delete_all_todos()
     results = []
 
-    for i in range(1, 10, 5):
+    for i in range(1, 1000, 5):
 
         #Post 5 todos at a time, deleting one every loop
         post_todos(5)
@@ -84,7 +84,7 @@ def update_experiment_with_system_metrics():
     delete_all_todos()
     results = []
 
-    for i in range(0, 10, 5):
+    for i in range(0, 1000, 5):
 
         #Post 5 todos at a time, updating one every loop
         post_todos(5)

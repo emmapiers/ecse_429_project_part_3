@@ -86,5 +86,3 @@ def save_results_to_csv(results, filename):
     
     #Confirm
     print(f"Results successfully saved to {filename}")
-
-
